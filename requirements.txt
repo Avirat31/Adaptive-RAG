@@ -1,0 +1,8 @@
+torch>=2.3
+transformers>=4.44
+sentence-transformers>=3.0
+vllm>=0.6            # multi-GPU tensor-parallel generation (use --llm_backend hf to skip)
+bm25s>=0.2
+PyStemmer            # optional, better BM25 tokenisation
+datasets>=2.20
+numpy

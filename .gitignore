@@ -1,0 +1,103 @@
+
+# ==============================
+# Python
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+build/
+dist/
+.eggs/
+
+# ==============================
+# Virtual environments
+# ==============================
+venv/
+env/
+.venv/
+ENV/
+.python-version
+
+# ==============================
+# Environment variables / secrets
+# ==============================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+credentials/
+
+# ==============================
+# Datasets and downloaded data
+# ==============================
+data/
+datasets/
+corpus/
+*.jsonl
+*.csv
+*.tsv
+
+# ==============================
+# Embeddings and model checkpoints
+# ==============================
+.cache/
+cache/
+hf_cache/
+transformers_cache/
+model_cache/
+models/
+checkpoints/
+weights/
+*.npy
+*.npz
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+
+# ==============================
+# Experiment outputs
+# ==============================
+outputs/
+results/
+runs/
+wandb/
+mlruns/
+lightning_logs/
+tensorboard/
+logs/
+*.log
+
+# ==============================
+# Jupyter
+# ==============================
+.ipynb_checkpoints/
+
+# ==============================
+# IDE / editor
+# ==============================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==============================
+# OS
+# ==============================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==============================
+# Temporary files
+# ==============================
+*.tmp
+*.temp
+*.bak
+*.orig
